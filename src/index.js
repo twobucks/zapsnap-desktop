@@ -8,7 +8,7 @@ app.on('ready', () => {
   const iconPath = path.join(__dirname, '../logo.png')
   tray = new Tray(iconPath)
   const contextMenu = Menu.buildFromTemplate([
-    { label: 'Take screenshot', type: 'normal', click() {
+    { label: 'Take screenshot (⌘ + ⇧ + 3)', type: 'normal', click() {
       seedshot()
     }},
     { label: 'Quit', type: 'normal', click() {
