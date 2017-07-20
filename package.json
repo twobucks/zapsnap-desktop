@@ -44,7 +44,8 @@
         }
     },
     "dependencies": {
-        "electron-compile": "^6.4.1"
+        "electron-compile": "^6.4.1",
+        "seedshot-cli": "^1.1.0"
     },
     "devDependencies": {
         "babel-plugin-transform-async-to-generator": "^6.24.1",
