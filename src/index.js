@@ -10,6 +10,9 @@ app.on('ready', () => {
     { label: 'Take screenshot', type: 'normal', click() {
       seedshot()
     }},
+    { label: 'Quit', type: 'normal', click() {
+      app.quit()
+    }},
   ])
   tray.setToolTip('Zapsnap')
   tray.setContextMenu(contextMenu)
