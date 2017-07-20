@@ -17,3 +17,5 @@ app.on('ready', () => {
   tray.setToolTip('Zapsnap')
   tray.setContextMenu(contextMenu)
 })
+
+app.dock.hide()
