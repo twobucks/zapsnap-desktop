@@ -1,6 +1,7 @@
-const {app, Menu, Tray} = require('electron')
+const { app, Menu, Tray, globalShortcut } = require('electron')
 const path = require('path')
 const seedshot = require('seedshot-cli')
+
 
 let tray = null
 app.on('ready', () => {
@@ -16,6 +17,20 @@ app.on('ready', () => {
   ])
   tray.setToolTip('Zapsnap')
   tray.setContextMenu(contextMenu)
+
+
+  globalShortcut.register('CommandOrControl+Shift+3', () => {
+    seedshot()
+  })
+})
+
+app.on('will-quit', () => {
+  // Unregister a shortcut.
+  globalShortcut.unregister('CommandOrControl+Shift+3')
+
+  // Unregister all shortcuts.
+  globalShortcut.unregisterAll()
 })
 
 app.dock.hide()
+
