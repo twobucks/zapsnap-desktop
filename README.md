@@ -1,4 +1,4 @@
-# :snap: Zapsnap Desktop
+# :zap: Zapsnap Desktop
 
 Desktop application for [Zapsnap](http://seedshot.io).
 
