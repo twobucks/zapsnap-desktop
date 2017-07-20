@@ -5,7 +5,7 @@ const seedshot = require('seedshot-cli')
 
 let tray = null
 app.on('ready', () => {
-  const iconPath = path.join(__dirname, '../logo.png')
+  const iconPath = path.join(__dirname, 'tray-icon.png')
   tray = new Tray(iconPath)
   const contextMenu = Menu.buildFromTemplate([
     { label: 'Take screenshot (⌘ + ⇧ + 3)', type: 'normal', click() {

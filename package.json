@@ -1,6 +1,6 @@
 {
     "name": "zapsnap-desktop",
-    "productName": "zapsnap-desktop",
+    "productName": "Zapsnap",
     "version": "1.0.0",
     "description": "My Electron application description",
     "main": "src/index.js",
@@ -17,19 +17,26 @@
         "forge": {
             "make_targets": {
                 "win32": [
-                    "squirrel"
+                    "exe"
                 ],
                 "darwin": [
-                    "zip"
+                    "dmg"
                 ],
                 "linux": [
                     "deb",
                     "rpm"
                 ]
             },
-            "electronPackagerConfig": {},
+            "electronPackagerConfig": {
+              "name": "Zapsnap",
+              "icon": "logo.png.icns"
+            },
+            "electronInstallerDMG": {
+              "icon": "logo.png.icns",
+              "format": "UDZO"
+            },
             "electronWinstallerConfig": {
-                "name": "zapsnap_desktop"
+                "name": "Zapsnap"
             },
             "electronInstallerDebian": {},
             "electronInstallerRedhat": {},
@@ -39,7 +46,7 @@
             },
             "windowsStoreConfig": {
                 "packageName": "",
-                "name": "zapsnapdesktop"
+                "name": "Zapsnap"
             }
         }
     },
