@@ -28,12 +28,12 @@
                 ]
             },
             "electronPackagerConfig": {
-              "name": "Zapsnap",
-              "icon": "logo.png.icns"
+                "name": "Zapsnap",
+                "icon": "logo.png.icns"
             },
             "electronInstallerDMG": {
-              "icon": "logo.png.icns",
-              "format": "UDZO"
+                "icon": "logo.png.icns",
+                "format": "UDZO"
             },
             "electronWinstallerConfig": {
                 "name": "Zapsnap"
@@ -52,7 +52,7 @@
     },
     "dependencies": {
         "electron-compile": "^6.4.1",
-        "seedshot-cli": "^1.1.0"
+        "seedshot-cli": "^2.0.0"
     },
     "devDependencies": {
         "babel-plugin-transform-async-to-generator": "^6.24.1",
