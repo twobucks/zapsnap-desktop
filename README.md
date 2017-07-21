@@ -8,6 +8,10 @@ Desktop application for [Zapsnap](http://seedshot.io).
 npm start
 ```
 
+## Attributions
+
+Logo created by il Capitano from Noun Project.
+
 ## License
 
 MIT
