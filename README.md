@@ -1,6 +1,6 @@
 # :zap: Zapsnap Desktop
 
-Desktop application for [Zapsnap](http://seedshot.io).
+Desktop application for [Zapsnap](https://zapsnap.io).
 
 ## Development
 
