@@ -10,7 +10,7 @@ npm start
 
 ## Attributions
 
-Logo created by il Capitano from Noun Project.
+Logo created by il Capitano from [Noun Project](https://thenounproject.com/search/?q=zap&i=889349).
 
 ## License
 
